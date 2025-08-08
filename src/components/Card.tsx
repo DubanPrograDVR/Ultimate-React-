@@ -1,5 +1,5 @@
 export default function Card() {
-  <>
+  return (
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">Special title treatment</h5>
@@ -11,5 +11,5 @@ export default function Card() {
         </a>
       </div>
     </div>
-  </>;
+  );
 }
